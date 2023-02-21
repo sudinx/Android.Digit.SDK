@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-remote-file:3.6.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/275095846c16a871bf18f7f603c37f37/transformed/jetified-sdk-remote-file-3.6.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/275095846c16a871bf18f7f603c37f37/transformed/jetified-sdk-remote-file-3.6.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/275095846c16a871bf18f7f603c37f37/transformed/jetified-sdk-remote-file-3.6.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
