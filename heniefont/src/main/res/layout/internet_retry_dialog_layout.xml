@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/nointernet" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/lable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Need Internet"
+            android:textColor="#0F43CA"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#505050"
+                android:textSize="@dimen/_13sdp"
+                android:text="Internet is necessary for load all functionality...!!"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/data"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="#fff"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold">
+
+                    <TextView
+                        android:id="@+id/retry_buttton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/install_btn"
+                        android:gravity="center"
+                        android:maxLines="1"
+                       android:paddingHorizontal="@dimen/_15sdp"
+                        android:text="Try Again"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
